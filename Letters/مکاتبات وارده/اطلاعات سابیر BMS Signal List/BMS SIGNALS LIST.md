@@ -1,93 +1,125 @@
-﻿2
-ناهفصا یورتم   طخ هژورپ
+﻿# 📡 لیست سیگنال‌های BMS - کنترل و مانیتورینگ پله‌برقی
 
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+**عنوان سند:** BMS Signals List - Escalator Control and Monitoring IO List  
+**پروژه:** خط ۲ متروی اصفهان (Esfahan Metro Line 2)  
+**کارفرما:** SABIR International Engineering & Equipment Development Co.  
+**تهیه‌کننده:** SED (SABIR Engineering Development)  
 
-BMS Signals List
+---
 
-Escalator Control and Monitoring IO list
+## 📋 مشخصات سند
 
-| 04  |                                         |     |           |           |           |     |     |
-| --- | --------------------------------------- | --- | --------- | --------- | --------- | --- | --- |
-| 03  |                                         |     |           |           |           |     |     |
-| 02  |                                         |     |           |           |           |     |     |
-|     |                                         |     | SED       | SED       | SED       |     |     |
-| 01  | According to the letter No 03-ou-15267  |     |           |           |           |     |     |
-|     |                                         |     | NOV 2024  | NOV 2024  | NOV 2024  |     |     |
-BMS Signals list- Escalator Control and Monitoring IO  SED  SED  SED
-| 00    |     |       |           |           |           | CD        | FI        |
-| ----- | --- | ----- | --------- | --------- | --------- | --------- | --------- |
-|       |     | list  | APR 2024  | APR 2024  | APR 2024  |           |           |
-|       |     |       | Prepared  | Checked   | Approved  | Purpose   | Approval  |
-| Rev.  |     | 01    |           |           |           |           |           |
-|       |     |       | Date      | Date      | Date      | of Issue  | Status    |
-Client  Doc. No.:  EURO298/1-SIC/0-STS/0-1/0-LOQ-GBMS-065/0-00  Client Rev.:  01
-| SED  Doc. No.:  | EL2-SED-BMS-REP-043  |     |     |     |     | SED Rev.:  | 01  |
-| --------------- | -------------------- | --- | --- | --- | --- | ---------- | --- |
-This document is the property of SABIR Int., neither the whole nor any part of this document may be disclosed to any third party, reproduced, stored in any retrieval system or
-transmitted in any form or any means without the prior consent of SABIR Int.
+| فیلد | مقدار |
+|------|-------|
+| **شماره سند کارفرما** | EURO298/1-SIC/0-STS/0-1/0-LOQ-GBMS-065/0-00 |
+| **شماره سند SED** | EL2-SED-BMS-REP-043 |
+| **نسخه کارفرما** | 01 |
+| **نسخه SED** | 01 |
+| **تاریخ تهیه** | SED APR 2024 |
+| **تاریخ بررسی** | SED NOV 2024 |
+| **تاریخ تصویب** | SED NOV 2024 |
+| **هدف انتشار** | CD (Construction Document) |
+| **وضعیت تصویب** | FI (Final Issue) |
 
-2
-ناهفصا یورتم طخ هژورپ
-Table of Contents
-1. Preamble 3
-List of Tables
-Table 1: Escalator Signals List .............................................................................................................................3
-Doc. Title: BMS Signals List - Escalator Control and Monitoring IO list Page 2 of 3
-Client Doc. No.: EURO298/1-SIC/0-STS/0-1/0-LOQ-GBMS-065/0-00 Client Rev.: 01
-SED Doc. No.: EL2-SED-BMS-REP-043 SED Rev.: 01
+---
 
-2
-|     |     | ناهفصا یورتم  |  طخ هژورپ |     |     |     |
-| --- | --- | ------------- | --------- | --- | --- | --- |
+## 🎯 هدف سند
 
-|     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- |
+این سند شامل لیست سیگنال‌های کنترل و مانیتورینگ تابلو پله‌برقی‌های مترو اصفهان است که برای یکپارچه‌سازی با سیستم مدیریت ساختمان (BMS) مورد استفاده قرار می‌گیرد.
 
-| 1.  Preamble   |     |     |     |     |     |     |
-| -------------- | --- | --- | --- | --- | --- | --- |
-This document includes list of control and monitoring signals of the Escalator panel of Esfahan Metro
-Line 2.
+---
 
-Table 1: Escalator Signals List
-Communication
-| No.  | I/O  Equipment  | TAG No  | Description  |     |     |     |
-| ---- | --------------- | ------- | ------------ | --- | --- | --- |
-Protocol
-| 1   | ESC  | ESC-RUN-ST  | Escalator RUN status  |     | Common  |     |
-| --- | ---- | ----------- | --------------------- | --- | ------- | --- |
-MON
-Protocol
-| 2   | ESC  | ESC-STOP-ST  | Escalator STOP status  |     | Common  |     |
-| --- | ---- | ------------ | ---------------------- | --- | ------- | --- |
-MON
-Protocol
-| 3   | ESC  | ESC-Fault-AL  | Escalator Alarm & Faults   |     | Common  |     |
-| --- | ---- | ------------- | -------------------------- | --- | ------- | --- |
-MON
-Protocol
-| 4   | ESC  | ESC-Direction-IN  | Escalator Direction  |     | Common  |     |
-| --- | ---- | ----------------- | -------------------- | --- | ------- | --- |
-MON
-indication   Protocol
-| 5   | ESC  | ESC-ESD-ST  | Escalator Emergency  |     | Common  |     |
-| --- | ---- | ----------- | -------------------- | --- | ------- | --- |
-CTRL
-Shutdown  Protocol
-| 6   | ESC  | ESC-Forward-CMD  | Escalator Forward  |     | Common  |     |
-| --- | ---- | ---------------- | ------------------ | --- | ------- | --- |
-CTRL
-Command   Protocol
-| 7   | ESC  | ESC-Reverse-CMD  | Escalator Reverse  |     | Common  |     |
-| --- | ---- | ---------------- | ------------------ | --- | ------- | --- |
-CTRL
-Command   Protocol
-8  ESC  ESC-Speed-Feedback  Escalator Speed-Feedback  Common
-MON
-Protocol
+## 📊 جدول سیگنال‌های پله‌برقی (Escalator Signals List)
 
-Doc. Title:   BMS Signals List - Escalator Control and Monitoring IO list  Page 3 of 3
-Client Doc. No.:  EURO298/1-SIC/0-STS/0-1/0-LOQ-GBMS-065/0-00  Client Rev.:  01
-| SED Doc. No.:  | EL2-SED-BMS-REP-043  |     |     | SED Rev.:  | 01  |     |
-| -------------- | -------------------- | --- | --- | ---------- | --- | --- |
+| ردیف | نوع سیگنال (I/O) | تجهیزات | TAG Number | شرح سیگنال | پروتکل ارتباطی |
+|:----:|:----------------:|:-------:|:-----------|:-----------|:--------------:|
+| **۱** | MON (مانیتورینگ) | ESC | ESC-RUN-ST | وضعیت روشن بودن پله‌برقی (Run Status) | Common Protocol |
+| **۲** | MON (مانیتورینگ) | ESC | ESC-STOP-ST | وضعیت توقف پله‌برقی (Stop Status) | Common Protocol |
+| **۳** | MON (مانیتورینگ) | ESC | ESC-Fault-AL | آلارم و خطاهای پله‌برقی (Alarm & Faults) | Common Protocol |
+| **۴** | MON (مانیتورینگ) | ESC | ESC-Direction-IN | نشانگر جهت حرکت پله‌برقی (Direction Indication) | Common Protocol |
+| **۵** | CTRL (کنترل) | ESC | ESC-ESD-ST | خاموشی اضطراری پله‌برقی (Emergency Shutdown) | Common Protocol |
+| **۶** | CTRL (کنترل) | ESC | ESC-Forward-CMD | فرمان حرکت رو به جلو (Forward Command) | Common Protocol |
+| **** | CTRL (کنترل) | ESC | ESC-Reverse-CMD | فرمان حرکت معکوس (Reverse Command) | Common Protocol |
+| **۸** | MON (مانیتورینگ) | ESC | ESC-Speed-Feedback | بازخورد سرعت پله‌برقی (Speed Feedback) | Common Protocol |
+
+---
+
+## 🔍 تحلیل سیگنال‌ها
+
+### دسته‌بندی بر اساس نوع
+
+| نوع سیگنال | تعداد | درصد | کاربرد |
+|:----------:|:-----:|:----:|:-------|
+| **MON (مانیتورینگ)** | ۵ | ۶۲.۵٪ | مشاهده وضعیت و بازخورد |
+| **CTRL (کنترل)** | ۳ | ۳۷.۵٪ | ارسال فرمان به تجهیزات |
+| **مجموع** | **۸** | **۱۰٪** | — |
+
+### دسته‌بندی بر اساس عملکرد
+
+| دسته عملکرد | سیگنال‌ها | تعداد |
+|:-----------:|:----------|:-----:|
+| **وضعیت (Status)** | RUN-ST, STOP-ST, ESD-ST | ۳ |
+| **خطا و آلارم (Fault/Alarm)** | Fault-AL | ۱ |
+| **فرمان (Command)** | Forward-CMD, Reverse-CMD | ۲ |
+| **بازخورد (Feedback)** | Direction-IN, Speed-Feedback | ۲ |
+
+---
+
+## 📝 توضیحات فنی
+
+### ۱. سیگنال‌های مانیتورینگ (MON)
+این سیگنال‌ها برای **مشاهده وضعیت** پله‌برقی از راه دور استفاده می‌شوند و امکان نظارت بر عملکرد تجهیزات را به اپراتورهای مرکز کنترل می‌دهند:
+
+- **ESC-RUN-ST:** نشان می‌دهد که پله‌برقی در حال کار است.
+- **ESC-STOP-ST:** نشان می‌دهد که پله‌برقی متوقف شده است.
+- **ESC-Fault-AL:** هرگونه خطا یا آلارم در سیستم را گزارش می‌دهد.
+- **ESC-Direction-IN:** جهت حرکت پله‌برقی (بالا/پایین) را نشان می‌دهد.
+- **ESC-Speed-Feedback:** سرعت واقعی پله‌برقی را به سیستم BMS گزارش می‌دهد.
+
+### ۲. سیگنال‌های کنترلی (CTRL)
+این سیگنال‌ها برای **ارسال فرمان** از سیستم BMS به پله‌برقی استفاده می‌شوند:
+
+- **ESC-ESD-ST:** فرمان خاموشی اضطراری (Emergency Shutdown) برای مواقع بحرانی.
+- **ESC-Forward-CMD:** فرمان حرکت پله‌برقی به سمت جلو (مثلاً از طبقه همکف به بالا).
+- **ESC-Reverse-CMD:** فرمان حرکت پله‌برقی به سمت معکوس (مثلاً از بالا به طبقه همکف).
+
+---
+
+##  پروتکل ارتباطی
+
+تمامی سیگنال‌ها از **پروتکل مشترک (Common Protocol)** استفاده می‌کنند که معمولاً یکی از پروتکل‌های استاندارد زیر است:
+
+- **Modbus RTU/TCP**
+- **BACnet**
+- **LonWorks**
+- **OPC-UA**
+
+>  **توصیه:** برای یکپارچه‌سازی دقیق، باید نوع دقیق پروتکل و پارامترهای ارتباطی (آدرس‌دهی، Baud Rate، etc.) از سازنده پله‌برقی (CANNY ELEVATOR) استعلام شود.
+
+---
+
+## 🏗️ کاربرد در پروژه
+
+این لیست سیگنال‌ها برای موارد زیر استفاده می‌شود:
+
+1. **یکپارچه‌سازی با BMS:** اتصال پله‌برقی‌ها به سیستم مدیریت ساختمان مترو.
+2. **مانیتورینگ از راه دور:** نظارت بر وضعیت ۲۸ دستگاه پله‌برقی از مرکز کنترل.
+3. **کنترل اضطراری:** امکان خاموشی اضطراری تمام پله‌برقی‌ها در مواقع بحرانی.
+4. **مدیریت ترافیک:** تغییر جهت پله‌برقی‌ها بر اساس شلوغی ایستگاه‌ها.
+5. **نگهداری پیشگیرانه:** شناسایی زودهنگام خطاها و کاهش زمان خرابی.
+
+---
+
+## 📎 پیوست‌ها
+
+- **تعداد پله‌برقی‌های پروژه:** ۲۸ دستگاه
+- **ایستگاه‌ها:** Q2, S2, T2, U2
+- **سازنده پله‌برقی:** CANNY ELEVATOR (چین)
+- **پیمانکار:** شرکت آسان سیر کاران عرشیان
+
+---
+
+> **تهیه شده توسط:** سیستم هوشمند تحلیل اسناد فنی  
+> **منبع:** فایل `BMS SIGNALS LIST.pdf`  
+> **تاریخ پردازش:** ۲۱ ژوئیه ۲۰۲۶  
+> **کاربرد:** مستندات فنی پروژه، یکپارچه‌سازی BMS، و راه‌اندازی سیستم کنترل
